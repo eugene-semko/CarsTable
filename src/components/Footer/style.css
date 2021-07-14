@@ -1,0 +1,21 @@
+.Footer {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #1a1919;
+    bottom: 0;
+    border-top: 1px dashed white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.Footer__title {
+    padding-right: 5px;
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 46px;
+    color: lightslategray;
+    text-decoration: none;
+}

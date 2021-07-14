@@ -1,0 +1,116 @@
+.CarsTable__wrapper {
+    width: fit-content;
+    position: relative;
+    padding: 10px;
+    padding-bottom: 70px;
+}
+.CarsTable {
+    background-color: #0e0e0e;
+    font-family: Consolas;
+    cursor: pointer;
+    width: 100%;
+}
+.CarsTable__head {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+
+    color: limegreen;
+}
+.CarsTable__body-tr td{
+    padding: 10px 20px;
+    border: 2px dashed white;
+}
+.CarsTable__body-td-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CarsTable__header {
+    border: 2px dashed limegreen;
+    padding: 10px 20px;
+}
+.CarsTable__header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CarsTable__header-icon {
+    margin-left: 5px;
+    transition: 0.3s;
+}
+.CarsTable__header-icon--rotated {
+    transform: rotateX(180deg);
+    transition: 0.3s;
+ }
+.CarsTable__body {
+    color: white;
+}
+.CarsTable__search-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.CarsTable__input {
+    position: relative;
+    width: 75%;
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    padding-left: 15px;
+    height: 42px;
+    color: limegreen;
+    border: 2px dashed limegreen;
+    background-color: #0e0e0e;
+
+    box-sizing: border-box;
+}
+.CarsTable__input:focus {
+    outline: none;
+}
+.CarsTable__input-button {
+    position: relative;
+    width: 25%;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: Consolas;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    height: 42px;
+    color: red;
+    border: 2px solid red;
+    background-color: #0e0e0e;
+}
+.CarsTable__selected-car {
+    border: 2px dashed limegreen;
+    padding: 30px 20px;
+    position: fixed;
+    bottom: 70px;
+    right: 0;
+    color: white;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.CarsTable__selected-car-icon {
+    padding-right: 5px;
+}
+.CarsTable__selected-car-hidden {
+    right: -1000px;
+    transition: 0.3s;
+}
+.Disabled {
+    cursor: default;
+}
+.Clickable:hover {
+    background-color: gray;
+}
